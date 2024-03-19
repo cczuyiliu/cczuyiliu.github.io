@@ -24,7 +24,27 @@
 
     <!-- Custom styles for this template -->
     <link href="css/resume.css" rel="stylesheet">
+    <style>
+      .resume-item:nth-child(odd) {
+        background-color: #f9f9f9; /* 浅灰色 */
+      }
+      
+      .resume-item:nth-child(even) {
+        background-color: #ffffff; /* 白色 */
+      }
 
+      .resume-thumbnail {
+      flex: 0 0 350px; /* 固定宽度 */
+      height: 150px; /* 固定高度 */
+      overflow: hidden; /* 隐藏超出部分 */
+      }
+
+      .resume-thumbnail img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 图片将覆盖整个容器 */
+      }
+    </style>
   </head>
 
   <body  id="page-top">
@@ -120,12 +140,12 @@
         <div class="my-auto">
           <h2 class="mb-5">NEWS</h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <!-- <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">TCGNet_Type-Correlation_Guidance_for_Salient_Object_Detection， IEEE T-ITS</h3>
-              <div class="mb-3">Machine learning researcher</div>
+              <h3 class="mb-0" style="font-family: Book Antiqua;font-size: 16px;text-transform: none;">TCGNet: Type Correlation Guidance for Salient Object Detection </h3>
+              <div class="mb-3">IEEE T-ITS</div>
               
-              <!-- <p>
+              <p>
               <div>
                 <ul>
                   <li><p>In the field of Conformal Prediction.</p></li>
@@ -134,17 +154,17 @@
               </div>
                 Supervisor:  <a href="https://www.eecs.yorku.ca/~ruth/" target="_blank">Dr. Ruth Urner</a>
               </p> -->
-            </div>
+            <!-- </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">December. 2023</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">CAPSULE_NETWORKS_WITH_RESIDUAL_POSE_ROUTING, IEEE T-NNLS</h3>
-              <div class="mb-3">Machine learning researcher</div>
+              <h3 class="mb-0" style="font-family: Book Antiqua;font-size: 16px;text-transform: none;">Capsule Networks With Residual Pose Routing </h3>
+              <div class="mb-3">IEEE T-NNLS</div>
               
-              <!-- <p>
+               <p>
               <div>
                 <ul>
                   <li><p>In the field of Conformal Prediction.</p></li>
@@ -153,11 +173,82 @@
               </div>
                 Supervisor:  <a href="https://www.eecs.yorku.ca/~ruth/" target="_blank">Dr. Ruth Urner</a>
               </p> -->
-            </div>
+            <!-- </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">December. 2023</span>
             </div>
+          </div> -->
+
+          <!---->
+          <!-- <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-thumbnail" style="flex: 0 0 400px; height: 100px; overflow: hidden;">
+              <img src="yiliu.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0" style="font-family: Book Antiqua;font-size: 16px;text-transform: none;">TCGNet: Type Correlation Guidance for Salient Object Detection </h3>
+              <div class="subheading mb-3">IEEE T-ITS</div>
+            </div>
+            
+          </div>  -->
+
+     
+          <div class="resume-item d-flex align-items-center mb-5">
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 120px; overflow: hidden;">
+              <img src="img/cap.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="resume-content" style="flex-grow: 1; padding-left: 15px;">
+              <h3 class="mb-0" style="font-family: Book Antiqua; font-size: 26px;text-transform: none;">Yi Liu†, De Cheng†, Dingwen Zhang‡, Shoukun Xu, and Jungong Han‡:Capsule Networks With Residual Pose Routing.</h3>
+              <div> IEEE T-NNLS
+              </div>
+              <span class="text-primary">December 2023</span>
+            </div>
           </div>
+         
+          <div class="resume-item d-flex align-items-center mb-5">
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 200px; overflow: hidden;">
+              <img src="img/tcg.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="resume-content" style="flex-grow: 1; padding-left: 15px;">
+              <h3 class="mb-0" style="font-family: Book Antiqua; font-size: 26px;text-transform: none;">Yi Liu , Ling Zhou, Gengshen Wu , Shoukun Xu, and Jungong Han.TCGNet: TypeCorrelation Guidance for Salient Object Detection</h3>
+              <div>IIEEE T-ITS</div>
+              <span class="text-primary">December 2023</span>
+            </div>
+          </div>
+
+          <!-- <div class="resume-item d-flex align-items-center mb-5">
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 100px; overflow: hidden;">
+              <img src="cap2.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="resume-content" style="flex-grow: 1; padding-left: 15px;">
+              <h3 class="mb-0" style="font-family: Book Antiqua; font-size: 16px;text-transform: none;">Yi Liu†, De Cheng†, Dingwen Zhang‡, Shoukun Xu, and Jungong Han‡:Capsule Networks With Residual Pose Routing.</h3>
+              <div>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), 2022.</div>
+              <span class="text-primary">December 2023</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex align-items-center mb-5">
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 100px; overflow: hidden;">
+              <img src="cap3.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="resume-content" style="flex-grow: 1; padding-left: 15px;">
+              <h3 class="mb-0" style="font-family: Book Antiqua; font-size: 16px;text-transform: none;">Yi Liu†, De Cheng†, Dingwen Zhang‡, Shoukun Xu, and Jungong Han‡:Capsule Networks With Residual Pose Routing.</h3>
+              <div>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), 2022.</div>
+              <span class="text-primary">December 2023</span>
+            </div>
+          </div>
+          <div class="resume-item d-flex align-items-center mb-5">
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 100px; overflow: hidden;">
+              <img src="cap4.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="resume-content" style="flex-grow: 1; padding-left: 15px;">
+              <h3 class="mb-0" style="font-family: Book Antiqua; font-size: 16px;text-transform: none;">Yi Liu†, De Cheng†, Dingwen Zhang‡, Shoukun Xu, and Jungong Han‡:Capsule Networks With Residual Pose Routing.</h3>
+              <div>IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), 2022.</div>
+              <span class="text-primary">December 2023</span>
+            </div>
+          </div> -->
+          
+          
+          
 
 
 
@@ -514,7 +605,10 @@
         <div class="my-auto">
           <h2 class="mb-5">Representative Publications</h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-1" >
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 150px; overflow: hidden;">
+              <img src="img/seg.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">SegGPT meets co-saliency scene</a></b>
               <br/> <br/>
@@ -524,14 +618,18 @@
                   <li><p>arXiv preprint arXiv:2305.04396, 2023</p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a>
+
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">April 2021</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-0">
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 150px; overflow: hidden;">
+              <img src="img/dktnet.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">DKTNet Dual-Key Transformer Network for small object detection</a></b>
               <br/><br/>
@@ -542,49 +640,58 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">April 2021</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <!-- <div class="resume-item d-flex flex-column flex-md-row mb-1">
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 100px; overflow: hidden;">
+              <img src="cap4.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">基于两阶段计算Transformer的小目标检测</a></b>
               <br/><br/>
               <div>
                 <ul>
                   <li><p><b>徐守坤</b>，顾佳楠，庄丽华，李宁，石林，刘毅*</p></li>
-                  <li><p>SVM and CNN classification models used to classify the question type achieved 96% accuracy and F1‐score of 92.7%.</p></li>
+                  <li><p>1</p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">August 2020</span>
             </div>
-          </div>
+          </div> -->
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-0">
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 150px; overflow: hidden;">
+              <img src="img/dcr.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Disentangled capsule routing for fast part-object relational saliency</a></b>
               <br/><br/>
               <div>
                 <ul>
                   <li><p><b>Yi Liu</b>, Dingwen Zhang, Nian Liu, Shoukun Xu, and Jungong Han</p></li>
-                  <li><p>IEEE Transactions on Image Processing (T-IP), 2022, DOI: 10.1109/TIP.2022.3215887
+                  <li><p>IEEE Transactions on Image Processing (T-IP), 2022
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <!-- <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a> -->
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-0">
+            <div class="resume-thumbnail" >
+              <img src="img/bi.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Bi-directional progressive guidance network for RGB-D salient object detection</a></b>
               <br/><br/>
@@ -595,14 +702,17 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <!-- <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a> -->
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-0">
+            <div class="resume-thumbnail" >
+              <img src="img/pcvs.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Part-object relational visual saliency</a></b>
               <br/><br/>
@@ -613,14 +723,17 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <!-- <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a> -->
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-1">
+            <div class="resume-thumbnail">
+              <img src="img/in.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Integrating part-object relationship and contrast for camouflaged object detection</a></b>
               <br/><br/>
@@ -631,14 +744,17 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <!-- <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a> -->
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-1">
+            <div class="resume-thumbnail" >
+              <img src="img/em.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Exploring multi-scale deformable context and channel-wise attention for salient object detection</a></b>
               <br/><br/>
@@ -649,32 +765,38 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-1">
+            <div class="resume-thumbnail">
+              <img src="img/eg.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Engaging part-whole hierarchies and contrast cues for salient object detection</a></b>
               <br/><br/>
               <div>
                 <ul>
                   <li><p>Qiang Zhang, Mingxing Duanmu, Yongjiang Luo, <b>Yi Liu*</b>, and Jungong Han*</p></li>
-                  <li><p>IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT), 2021, DOI 10.1109/TCSVT.2021.3104932
+                  <li><p>IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT), 2021
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-1">
+            <div class="resume-thumbnail"  >
+              <img src="img/dso.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Deep Salient Object Detection with Contextual Information Guidance</a></b>
               <br/><br/>
@@ -685,14 +807,17 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <!-- <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a> -->
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-1">
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 100px; overflow: hidden;">
+              <img src="img/jc.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Joint cross-modal and unimodal features for RGB-D salient object detection</a></b>
               <br/><br/>
@@ -703,14 +828,17 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-1">
+            <div class="resume-thumbnail">
+              <img src="img/edp.jpg" alt="Thumbnail" >
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Employing Deep Part-Object Relationships for Salient Object Detection</a></b>
               <br/><br/>
@@ -721,13 +849,16 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <!-- <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a> -->
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-1">
+            <div class="resume-thumbnail" >
+              <img src="img/v2.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Salient object detection via two-stage graphs</a></b>
               <br/><br/>
@@ -738,14 +869,17 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-1">
+            <div class="resume-thumbnail" >
+              <img src="img/s3.jpg" alt="Thumbnail" style="object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Salient object detection employing a local tree-structured low-rank representation and foreground consistency</a></b>
               <br/><br/>
@@ -756,14 +890,17 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-1">
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 120px; overflow: hidden;">
+              <img src="img/srub.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Salient object detection employing robust sparse representation and local consistency</a></b>
               <br/><br/>
@@ -774,14 +911,17 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-1">
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 200px; overflow: hidden;">
+              <img src="img/spa.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Sparse representation based multi-sensor image fusion for multi-focus and multi-modality images: A review, Information Fusion</a></b>
               <br/><br/>
@@ -792,14 +932,17 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-item d-flex flex-column flex-md-row mb-1">
+            <div class="resume-thumbnail" style="flex: 0 0 350px; height: 200px; overflow: hidden;">
+              <img src="img/low.jpg" alt="Thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
             <div class="resume-content mr-auto">
               <b class="mb-0"><a href="https://github.com/liuyi1989" target="_blank">Salient object detection based on super-pixel clustering and unified low-rank representation</a></b>
               <br/><br/>
@@ -810,7 +953,7 @@
                   </p></li>
                 </ul>
               </div>
-              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; ">GITHUB REPO</a>
+              <a href="https://github.com/liuyi1989" target="_blank" class="btn gray" style="border-radius: 50px; padding: 5px 10px; margin: 0; line-height: 1; ">GITHUB REPO</a>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2019</span>
