@@ -209,7 +209,7 @@ a:hover, a:focus, a:active {
 .blue {
   background-color: #2797ec;
   margin-left: 0;
-  font-size: 10px;
+  font-size: 14px;
   border-radius: 53px;
   padding: 3px 8px
 }
@@ -229,9 +229,9 @@ a:hover, a:focus, a:active {
 }
 
 .gray {
-  background-color: #495057;
+  background-color: #738aa2;
   margin-left: 0;
-  font-size: 10px;
+  font-size: 14px;
   border-radius: 53px;
   padding: 3px 8px
 }
